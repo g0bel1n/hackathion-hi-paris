@@ -12,6 +12,10 @@ from mmdet.apis import inference_detector, show_result_pyplot
 from mmdet.models import build_detector
 
 def load_swin():
+    """
+    Load the model from the checkpoint file and set the model to evaluation mode
+    :return: The model is being returned.
+    """
 
 
     print(root)
